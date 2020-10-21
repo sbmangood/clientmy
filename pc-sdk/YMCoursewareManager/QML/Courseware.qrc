@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ImageView.qml</file>
+        <file>YMAudioPlayer.qml</file>
+        <file>YMVideoPlayer.qml</file>
+        <file>H5EngineView.qml</file>
+        <file>CourseWareControlView.qml</file>
+        <file>Configuuration.js</file>
+		<file>images/cr_btn_close.png</file>
+		<file>images/head_quit_sedtwox.png</file>
+		<file>images/mbig.png</file>
+		<file>images/video_btn_fullscreenTwo.png</file>
+		<file>images/video_smallscrenTwo.png</file>
+		<file>images/video_start@2x.png</file>
+		<file>images/video_startTwo.png</file>
+		<file>images/video_stop@2x.png</file>
+		<file>images/video_stopTwo.png</file>
+    </qresource>
+</RCC>

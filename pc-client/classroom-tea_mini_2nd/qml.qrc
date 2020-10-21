@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>YMStartLessonView.qml</file>
+        <file>Configuuration.js</file>
+    </qresource>
+</RCC>

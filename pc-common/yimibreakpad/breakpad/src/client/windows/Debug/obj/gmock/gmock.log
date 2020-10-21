@@ -1,0 +1,4 @@
+﻿  gmock-all.cc
+  gtest_main.cc
+c1xx : fatal error C1083: 无法打开源文件: “..\..\..\testing\googlemock\src\gmock-all.cc”: No such file or directory
+c1xx : fatal error C1083: 无法打开源文件: “..\..\..\testing\googletest\src\gtest_main.cc”: No such file or directory

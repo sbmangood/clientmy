@@ -1,0 +1,12 @@
+﻿  exception_handler_test.cc
+  exception_handler_death_test.cc
+  exception_handler_nesting_test.cc
+  minidump_test.cc
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 minidump_test.cc)
+  dump_analysis.cc
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 exception_handler_nesting_test.cc)
+  crash_generation_server_test.cc
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 crash_generation_server_test.cc)
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 exception_handler_test.cc)
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 dump_analysis.cc)
+D:\TestWork\breakpad-master\src\breakpad_googletest_includes.h(33): fatal error C1083: 无法打开包括文件: “gtest/gtest.h”: No such file or directory (编译源文件 exception_handler_death_test.cc)

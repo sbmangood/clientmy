@@ -1,0 +1,5 @@
+module Answer
+plugin Answer
+typeinfo plugin.qmltypes
+
+

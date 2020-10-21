@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ImageView.qml</file>
+        <file>ShowQuestionHandlerView.qml</file>
+        <file>CloudFillBlankView.qml</file>
+        <file>CloudMultipleChoice.qml</file>
+        <file>JudgmentQuestionView.qml</file>
+        <file>CloudTopicBrowsView.qml</file>
+        <file>MultipleChoiceQuestionsView.qml</file>
+        <file>SingleChoiceQuestionView.qml</file>
+        <file>YMAudioPlayer.qml</file>
+        <file>YMVideoPlayer.qml</file>
+        <file>CloudCompositeTopicView.qml</file>
+        <file>H5EngineView.qml</file>
+        <file>CourseWareControlView.qml</file>
+    </qresource>
+</RCC>

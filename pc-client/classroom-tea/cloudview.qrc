@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CloudModifyPageView.qml</file>
+        <file>CloudExercisePageView.qml</file>
+        <file>CloudModifyHomeworkView.qml</file>
+        <file>YMComboBoxControl2.qml</file>
+        <file>TipExerciseView.qml</file>
+        <file>KnowledgesView.qml</file>
+        <file>AddAnswerView.qml</file>
+        <file>TipStopPracticeView.qml</file>
+        <file>RoomMemberStatusView.qml</file>
+        <file>CloudRoomMeun.qml</file>
+    </qresource>
+</RCC>

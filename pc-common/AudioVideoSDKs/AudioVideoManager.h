@@ -1,0 +1,92 @@
+﻿#ifndef AUDIOVIDEOMANAGER_H
+#define AUDIOVIDEOMANAGER_H
+#include <QObject>
+#include <QTextCodec>
+#include <QImage>
+#include "AudioVideoBase.h"
+#include "agora/Processing_A_Channel.h"
+#include "iLiveSDK/Processing_B_Channel.h"
+#include "LiteAV/Processing_B2_Channel.h"
+#include "wangyi_163/Processing_C_Channel.h"
+#include <QFile>
+#include <QCoreApplication>
+
+// 通道类型
+enum CHANNEL_TYPE
+{
+    CHANNEL_0 = 0,  // 待定义
+    CHANNEL_A = 1,  // A通道, 声网 agora
+    CHANNEL_B = 2,  // B通道, 腾讯 iLive
+    CHANNEL_B2 = 3,  // B2通道, 腾讯 LiteAV
+    CHANNEL_C = 4,   // C通道, 网易 wangyi_163
+    CHANNEL_DEFAULT = CHANNEL_A
+};
+
+class AudioVideoManager : public QObject
+{
+    Q_OBJECT
+
+public:
+
+    explicit AudioVideoManager(QObject *parent = 0);
+    virtual ~AudioVideoManager();
+
+    static AudioVideoManager *getInstance()
+    {
+        static AudioVideoManager *audioVideoManager = new AudioVideoManager();
+        return audioVideoManager;
+    }
+
+    void changeChanncel(CHANNEL_TYPE currentChannel, QString videoType, QString microphoneState, QString cameraState,
+                        ROLE_TYPE role, QString userId, QString lessonId, QString apiVersion, QString appVersion, QString token, QString strDllFile, QString strAppName, QString &logFilePath,
+                        QString strSpeaker, QString strMicPhone, QString strCamera, QMap<QString, QPair<QString, QString>>& cameraPhone,int videoSpan,QString channelKey,QString channelName,
+                        COURSE_TYPE courseType = ONE_TO_ONE);// 切换频道
+    void openLocalVideo();// 打开本地视频
+    void closeLocalVideo();// 关闭本地视频
+    void openLocalAudio();// 打开本地音频
+    void closeLocalAudio();// 关闭本地音频
+    void exitChannel();// 退出频道
+    void setStayInclassroom();// 设置留在教室
+
+    MICROPHONE_STATE microphoneState;// 麦克风状态
+    CAMERA_STATE cameraState;// 摄像头状态
+    QString m_supplier; // 当前通道
+    QString m_videoType; // 当前音频
+    QString m_tempSupplier = "1";
+
+    QString getDefaultDevicesId(QString deviceKey);
+
+public:
+    AudioVideoBase *m_processingchannel;
+    QString m_httpUrl;
+    CHANNEL_TYPE m_preChannel = CHANNEL_0; // 记录上一个channnel id,切换通道的时候, 只关闭上一个的channel，默认是0,因为第一次进来的时候, 原来的通道是0保证和当前的通道, 不一样
+
+    ROLE_TYPE m_role;// 用户类型：0学生，1教师，2旁听
+    QString m_userId;// 用户ID
+    QString m_lessonId;// 课程ID
+    QString m_apiVersion;// apiVersion
+    QString m_appVersion;// appVersion
+    QString m_token;// token
+    QString m_logFilePath;// 日志文件路径
+    QString m_audioName;
+
+signals:
+    void renderVideoFrameImage(unsigned int uid, QImage image, int rotation);// 传送视频图片帧的信号
+    void sigAudioVolumeIndication(unsigned int uid, int totalVolume );// 测试音量
+    void sigAisleFinish(bool isSuccess);// 通道切换完成信号
+    void createRoomSucess();// 加入音视频通道成功信号
+    void createRoomFail();// 加入音视频通道失败信号
+    void sigCreateClassroom();
+    void sigCameraMicrophoneState();
+    void pushFrameRateToQos(QString channel, QString receivedFrameRate);// 发送帧率信息到Qos
+    void pushAudioQualityToQos(QString channel, QString audioLost, QString audioDelay, QString audioQuality);// 发送音频质量信息到Qos
+    void sigJoinOrLeaveRoom(unsigned int uid, int behavior);// behavior 1 进入，0离开
+    void sigAudioName(QString audioName);// 录播
+
+public slots:
+    void slotCreateRoomFail();
+    void slotCreateRoomSuccess();
+private:
+    bool m_isSuccess;// 是否切换成功
+};
+#endif // AUDIOVIDEOMANAGER_H

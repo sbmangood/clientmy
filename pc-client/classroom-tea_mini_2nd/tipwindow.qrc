@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>PopupWidget.qml</file>
+        <file>TipDropClassroomBstudentItem.qml</file>
+        <file>TipLoginError.qml</file>
+        <file>TipWaitIntoClassRoom.qml</file>
+        <file>TipClassBegin.qml</file>
+        <file>TipContinueClass.qml</file>
+        <file>TipDownloadFailed.qml</file>
+        <file>TipEnterClassFailed.qml</file>
+        <file>TipExitConfirm.qml</file>
+        <file>TipClearScreen.qml</file>
+        <file>TipCourseWareView.qml</file>
+        <file>TipAutoChageIpView.qml</file>
+        <file>TipKickOutView.qml</file>
+        <file>TipRosterView.qml</file>
+        <file>TipFeedbackView.qml</file>
+        <file>TipMiniclassInfoView.qml</file>
+        <file>YMTipOpenCoursewareView.qml</file>
+    </qresource>
+</RCC>

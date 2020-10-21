@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/login_btn_right.png</file>
+        <file>images/login_btn_right_grey.png</file>
+        <file>images/loginlogo.png</file>
+        <file>images/loginBtn.png</file>
+        <file>images/loginAds.png</file>
+        <file>images/close.png</file>
+        <file>images/enter_failed.png</file>
+        <file>images/enter_success.png</file>
+        <file>images/rightLogo.png</file>
+        <file>images/tea.png</file>
+        <file>images/tea64x64.ico</file>
+        <file>images/tea128x128.ico</file>
+        <file>images/tea256x256.ico</file>
+        <file>images/UPDOWN@2x.png</file>
+    </qresource>
+</RCC>

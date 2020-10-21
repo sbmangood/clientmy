@@ -1,0 +1,1 @@
+call sdk-maven.bat download,4.8.1,%~dp0

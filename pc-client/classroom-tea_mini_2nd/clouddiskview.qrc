@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMLoadingStatuesView.qml</file>
+        <file>YMCloudDiskMainView.qml</file>
+        <file>YMTimerView.qml</file>
+        <file>YMRandomSelectionView.qml</file>
+        <file>YMResponderView.qml</file>
+        <file>YMResponderViewForStu.qml</file>
+        <file>YMExitroomView.qml</file>
+        <file>YMClockControl.qml</file>
+    </qresource>
+</RCC>

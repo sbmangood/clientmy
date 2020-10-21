@@ -1,0 +1,6 @@
+module WhiteBoard
+WhiteBoard 1.0 WhiteBoard.qml
+plugin WhiteBoard
+typeinfo plugin.qmltypes
+
+

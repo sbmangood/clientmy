@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMCreatWorkOrderView.qml</file>
+        <file>YMCloseWorkOrderView.qml</file>
+        <file>YMReCommitWorkOrderView.qml</file>
+        <file>YMShowWorkOrderImageView.qml</file>
+    </qresource>
+</RCC>

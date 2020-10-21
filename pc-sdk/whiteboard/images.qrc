@@ -1,0 +1,8 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>images/sdthcr_mouse_bigeraser.png</file>
+        <file>images/sdthcr_mouse_pen.png</file>
+        <file>images/sdthcr_mouse_smalleraser.png</file>
+        <file>images/thcr_mouse_hand.png</file>
+    </qresource>
+</RCC>

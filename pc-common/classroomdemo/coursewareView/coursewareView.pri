@@ -1,0 +1,1 @@
+RESOURCES += $$PWD/CoursewareView.qrc

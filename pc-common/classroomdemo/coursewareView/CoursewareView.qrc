@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CoursewareView.qml</file>
+    </qresource>
+</RCC>

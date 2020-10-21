@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ToobarWidget.qml</file>
+        <file>BrushWidget.qml</file>
+        <file>EraserWidget.qml</file>
+        <file>InterfaceWidget.qml</file>
+        <file>PictureWidget.qml</file>
+        <file>GraphicWidget.qml</file>
+        <file>PolygonPanelWidget.qml</file>
+        <file>EllipsePanelWidget.qml</file>
+        <file>DetectionNetwork.qml</file>
+        <file>BottomToolbars.qml</file>
+        <file>NetworkStatusList.qml</file>
+    </qresource>
+</RCC>

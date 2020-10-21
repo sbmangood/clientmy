@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>YMMenuView.qml</file>
+        <file>YMPlayerControl.qml</file>
+        <file>YMVideoPlayer.qml</file>
+        <file>YMAudioPlayer.qml</file>
+        <file>Configuuration.js</file>
+        <file>YMTipsMediaPlayView.qml</file>
+        <file>CloudRoomMeun.qml</file>
+        <file>YMDownLoadView.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+#项目工程忽略规则
+=======
+﻿#项目工程忽略规则
+>>>>>>> origin/master
+
+#以下为工程忽略文件格式
+*.exe
+*.jsc
+*.obj
+*.pdb
+*.qmlc
+*.user
+<<<<<<< HEAD
+=======
+*.autosave
+>>>>>>> origin/master
+
+#以下为工程忽略文件夹
+/build*

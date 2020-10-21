@@ -1,0 +1,23 @@
+
+当前目录下的文件, 是以下工程:
+classroom-stu
+classroom-tea
+CourwarePreviewer
+player
+updated
+yimifd-stu
+yimifd-tea
+在运行的时候, 需要依赖的dll
+
+
+使用方法:
+1. 可以将本目录, 拷贝到其它的目录(比如, 目录: D:\000)
+   然后, 将目录: D:\000, 添加到操作系统的path目录中,
+   然后, 只将配置文件: Qtyer.dll, 拷贝到release目录下, 就可以了
+
+2. 每次, 启动程序前, 将当前目录下的所有文件, 拷贝到release目录
+
+release目录, 比如:
+yimifudao\build-classroom-Desktop_Qt_5_8_0_MSVC2015_32bit-Release\release
+yimifudao\build-player-Desktop_Qt_5_8_0_MSVC2015_32bit-Release
+... ...

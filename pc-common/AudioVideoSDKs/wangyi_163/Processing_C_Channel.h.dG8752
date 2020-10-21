@@ -1,0 +1,79 @@
+#ifndef PROCESSING_C_CHANNEL_H
+#define PROCESSING_C_CHANNEL_H
+
+#include "../AudioVideoBase.h"
+#include "channel_wangyi.h"
+#include <QMap>
+#include <QStringList>
+#include <QCryptographicHash>
+#include <QIODevice>
+
+namespace YMAVEncryption
+{
+    static inline QString md5(const QString& data)
+    {
+        QCryptographicHash hash(QCryptographicHash::Md5);
+        hash.addData(data.toUtf8());
+        return QString(hash.result().toHex());
+    }
+
+    static inline QString signSort(const QMap<QString, QString> &dataMap)
+    {
+        QString sign = "";
+        for(auto it = dataMap.begin(); it != dataMap.end(); ++it)
+        {
+            sign.append(it.key()).append("=").append(it.value());
+            if(it != dataMap.end() - 1)
+            {
+                sign.append("&");
+            }
+        }
+        return sign;
+    }
+
+    static inline QString signMapSort(const QVariantMap &dataMap)
+    {
+        QString sign = "";
+        for(auto it = dataMap.begin(); it != dataMap.end(); ++it)
+        {
+            sign.append(it.key()).append("=").append(QString::fromUtf8( it.value().toByteArray()));
+            if(it != dataMap.end() - 1)
+            {
+                sign.append("&");
+            }
+        }
+        return sign;
+    }
+}
+
+class Processing_C_Channel : public AudioVideoBase
+{
+    Q_OBJECT
+public:
+    explicit Processing_C_Channel();
+    virtual ~Processing_C_Channel();
+
+    static  Processing_C_Channel *getInstance()
+    {
+        static Processing_C_Channel *m_processing_C_Channel = new Processing_C_Channel();
+        return m_processing_C_Channel;
+    }
+
+    virtual bool initChannel(ROLE_TYPE role, QString userId, QString camera, QString microphone, QString lessonId, QString apiVersion, QString appVersion, QString token, QString &logFilePath);// 初始化频道
+    virtual bool enterChannel(const char *channelName, const char *info, unsigned int uid, QString strSpeaker, QString strMicPhone, QString strCamera, QMap<QString, QPair<QString, QString>>& cameraPhone);// 进入频道
+    virtual bool leaveChannel();// 离开频道
+    virtual bool openLocalVideo();// 打开本地视频
+    virtual bool closeLocalVideo();// 关闭本地视频
+    virtual bool openLocalAudio();// 打开本地音频
+    virtual bool closeLocalAudio();// 关闭本地音频
+
+public:
+    bool doGet_User_Name_pwd(); // 得到网易C通道的用户名, 密码
+    bool doGet_Push_Url();      // 得到网易C通道的录播推流地址
+
+private:
+    chanel_wangyi m_objChanelWangyi;
+    YMHttpClient * m_httpClient;
+    QString m_httpUrl;
+};
+#endif

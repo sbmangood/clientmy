@@ -1,0 +1,13 @@
+build-classroomdemo-Desktop_Qt_5_8_0_MSVC2015_32bit-Release/
+build-whiteboard-Desktop_Qt_5_8_0_MSVC2015_32bit-Release/
+build-classroomdemo-Desktop_Qt_5_8_0_MSVC2015_32bit-debug/
+*.autosave
+*.pro.user*
+.qmake.stash
+vc140.pdb
+debug
+release
+Makefile
+Makefile.*
+sdk
+sdk.rar

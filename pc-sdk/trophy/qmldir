@@ -1,0 +1,5 @@
+module Trophy
+plugin Trophy
+typeinfo plugin.qmltypes
+
+

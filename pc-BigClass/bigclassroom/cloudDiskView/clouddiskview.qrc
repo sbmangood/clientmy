@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMLoadingStatuesView.qml</file>
+        <file>YMCloudDiskMainView.qml</file>
+        <file>YMRandomSelectionView.qml</file>
+        <file>YMResponderView.qml</file>
+        <file>Configuration.js</file>
+    </qresource>
+</RCC>

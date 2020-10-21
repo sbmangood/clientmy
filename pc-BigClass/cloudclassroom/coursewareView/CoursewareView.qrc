@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CoursewareView.qml</file>
+        <file>CoursewareMainView.qml</file>
+        <file>CoursewareBottomBar.qml</file>
+        <file>Configuration.js</file>
+        <file>cvimages/pop_close_normal.png</file>
+        <file>cvimages/pop_narrow_normal.png</file>
+        <file>cvimages/pop_zoom_normal.png</file>
+        <file>ExchangeCoursewareView.qml</file>
+        <file>cvimages/btn_pop_wjsx_focused.png</file>
+        <file>cvimages/btn_pop_wjsx_pressed.png</file>
+        <file>cvimages/but_pop_narrow_enabled.png</file>
+    </qresource>
+</RCC>

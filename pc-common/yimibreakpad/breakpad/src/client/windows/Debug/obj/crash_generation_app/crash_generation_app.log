@@ -1,0 +1,5 @@
+﻿  abstract_class.cc
+  crash_generation_app.cc
+  LINK : 没有找到 D:\tools\breakpad-master\src\client\windows\Debug\crash_generation_app.exe 或上一个增量链接没有生成它；正在执行完全链接
+  crash_generation_app.vcxproj -> D:\tools\breakpad-master\src\client\windows\Debug\\crash_generation_app.exe
+  crash_generation_app.vcxproj -> D:\tools\breakpad-master\src\client\windows\Debug\crash_generation_app.pdb (Full PDB)

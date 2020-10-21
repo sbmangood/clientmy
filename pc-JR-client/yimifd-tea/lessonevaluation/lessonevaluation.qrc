@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>TeaLessonEvaluationView.qml</file>
+        <file>StuLessonEvaluationView.qml</file>
+        <file>TextAreaControl.qml</file>
+        <file>YMStarsAssessView.qml</file>
+        <file>Configuration.js</file>
+    </qresource>
+</RCC>

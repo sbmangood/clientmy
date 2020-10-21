@@ -1,0 +1,4 @@
+﻿  client_info.cc
+  crash_generation_server.cc
+  minidump_generator.cc
+  crash_generation_server.vcxproj -> D:\tools\breakpad-master\src\client\windows\Debug\lib\crash_generation_server.lib

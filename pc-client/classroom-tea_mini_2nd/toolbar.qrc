@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>BrushWidget.qml</file>
+        <file>EraserWidget.qml</file>
+        <file>YMMiniClassToolbarsView.qml</file>
+        <file>YMToolboxView.qml</file>
+        <file>BottomToolbars.qml</file>
+    </qresource>
+</RCC>

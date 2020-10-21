@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>PopupWidget.qml</file>
+        <file>TipClassOverWidgetItem.qml</file>
+        <file>TipDropClassroomBstudentItem.qml</file>
+        <file>TipEvaluateWidgetItem.qml</file>
+        <file>TipDropClassroom.qml</file>
+        <file>TipExitClassroom.qml</file>
+        <file>TipExitClassroomItem.qml</file>
+        <file>TipLoginError.qml</file>
+        <file>TipWaitIntoClassRoom.qml</file>
+        <file>TipApplyExitClass.qml</file>
+        <file>TipApplyRole.qml</file>
+        <file>TipClassBegin.qml</file>
+        <file>TipContinueClass.qml</file>
+        <file>TipDownloadFailed.qml</file>
+        <file>TipEnterClassFailed.qml</file>
+        <file>TipExitClassRoomView.qml</file>
+        <file>TipExitConfirm.qml</file>
+        <file>TipClearScreen.qml</file>
+        <file>TipCourseWareView.qml</file>
+        <file>TipLessonAssessView.qml</file>
+        <file>TipApplyGotoClassView.qml</file>
+        <file>TipCreatWorkOrderView.qml</file>
+        <file>TipCourseTimeOutView.qml</file>
+        <file>TipApplyEndLessonView.qml</file>
+        <file>TipAssessView.qml</file>
+        <file>TipAutoChageIpView.qml</file>
+        <file>TipKickOutView.qml</file>
+        <file>TipVersionMessageView.qml</file>
+        <file>TipShowH5ReportView.qml</file>
+        <file>YMTipsExitClassroomView.qml</file>
+        <file>YMAskTeacherHandMicView.qml</file>
+        <file>YMCCJustHoldMicView.qml</file>
+    </qresource>
+</RCC>

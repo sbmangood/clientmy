@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMDevicetesting.qml</file>
+        <file>Configuration.js</file>
+        <file>YMInterControlView.qml</file>
+        <file>YMComboBoxControl.qml</file>
+        <file>networkImage/roundgreen.png</file>
+        <file>networkImage/UPDOWN@2x.png</file>
+        <file>networkImage/shexiangtou@3x.png</file>
+        <file>networkImage/meiyou.png</file>
+        <file>networkImage/camera.png</file>
+        <file>networkImage/mic.png</file>
+        <file>networkImage/wifi.png</file>
+        <file>networkImage/yuyin1.png</file>
+        <file>networkImage/yuyin2.png</file>
+        <file>networkImage/yuyin3.png</file>
+        <file>networkImage/yuyin@3x.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMClockControl.qml</file>
+        <file>YMRandomSelectionView.qml</file>
+        <file>YMResponderViewForStu.qml</file>
+        <file>YMTimerView.qml</file>
+    </qresource>
+</RCC>

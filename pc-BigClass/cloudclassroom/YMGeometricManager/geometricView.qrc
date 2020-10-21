@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>GraphicWidget.qml</file>
+        <file>EllipsePanelWidget.qml</file>
+        <file>PolygonPanelWidget.qml</file>
+        <file>YMGraphicsView.qml</file>
+        <file>RectangeView.qml</file>
+        <file>geometricImage/btn_graph_right_focused@2x.png</file>
+        <file>geometricImage/btn_graph_right_pressed@2x.png</file>
+        <file>geometricImage/but_menu_circle_focused@2x.png</file>
+        <file>geometricImage/but_menu_circle_normal@2x.png</file>
+        <file>geometricImage/but_menu_circle_pressed@2x.png</file>
+        <file>geometricImage/but_menu_line_focused@2x.png</file>
+        <file>geometricImage/but_menu_line_normal@2x.png</file>
+        <file>geometricImage/but_menu_line_pressed@2x.png</file>
+        <file>geometricImage/but_menu_rectangle_focused@2x.png</file>
+        <file>geometricImage/but_menu_rectangle_normal@2x.png</file>
+        <file>geometricImage/but_menu_rectangle_pressed@2x.png</file>
+        <file>geometricImage/but_menu_triangle_focused@2x.png</file>
+        <file>geometricImage/but_menu_triangle_normal@2x.png</file>
+        <file>geometricImage/but_menu_triangle_pressed@2x.png</file>
+        <file>geometricImage/btn_graph_wrong_normal@2x.png</file>
+        <file>geometricImage/btn_graph_wrong_pressed@2x.png</file>
+        <file>geometricImage/bg_pop_graph.png</file>
+    </qresource>
+</RCC>

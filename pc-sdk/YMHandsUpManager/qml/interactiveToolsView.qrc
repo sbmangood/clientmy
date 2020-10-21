@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>InteractiveToolsView.qml</file>
+        <file>Configuration.js</file>
+        <file>ChattingRoom.qml</file>
+        <file>interactiveImage/cy1@2x.png</file>
+        <file>interactiveImage/cy2@2x.png</file>
+        <file>interactiveImage/cy3@2x.png</file>
+        <file>interactiveImage/lt1@2x.png</file>
+        <file>interactiveImage/lt2@2x.png</file>
+        <file>interactiveImage/lt3@2x.png</file>
+        <file>interactiveImage/anzhuo1@2x.png</file>
+        <file>interactiveImage/ctjs@2x.png</file>
+        <file>interactiveImage/djjs@2x.png</file>
+        <file>interactiveImage/hdts@2x.png</file>
+        <file>interactiveImage/ios1@2x.png</file>
+        <file>interactiveImage/jj1@2x.png</file>
+        <file>interactiveImage/jj2@2x.png</file>
+        <file>interactiveImage/jy1@2x.png</file>
+        <file>interactiveImage/jy2@2x.png</file>
+        <file>interactiveImage/spz@2x.png</file>
+        <file>interactiveImage/st1@2x.png</file>
+        <file>interactiveImage/st2@2x.png</file>
+        <file>interactiveImage/xfjs@2x.png</file>
+        <file>interactiveImage/xt1@2x.png</file>
+        <file>interactiveImage/xt2@2x.png</file>
+    </qresource>
+</RCC>

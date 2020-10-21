@@ -1,0 +1,5 @@
+module RedPacket
+plugin RedPacket
+typeinfo plugin.qmltypes
+
+

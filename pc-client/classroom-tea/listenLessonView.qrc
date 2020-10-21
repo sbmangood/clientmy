@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>TipJoinMicrophoneView.qml</file>
+        <file>TipAgreeMicrophoneView.qml</file>
+        <file>TipWaitMicrophoneView.qml</file>
+        <file>TipApplyMicrophoneView.qml</file>
+        <file>TipConfirmLessonView.qml</file>
+        <file>TipStartListenView.qml</file>
+        <file>AuditionLessonCoursewareView.qml</file>
+        <file>AuditionLessonReportView.qml</file>
+        <file>AuditionLessonhomeWork.qml</file>
+        <file>AuditionLessonHMDetail.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Configuration.js</file>
+        <file>YMLoginView.qml</file>
+        <file>YMInterNetSetting.qml</file>
+        <file>YMStageInputPasswordView.qml</file>
+        <file>YMEnterClassView.qml</file>
+        <file>YMComboxControl.qml</file>
+    </qresource>
+</RCC>

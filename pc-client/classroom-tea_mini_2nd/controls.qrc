@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>TextAreaControl.qml</file>
+        <file>Configuuration.js</file>
+        <file>YMComboBoxControl.qml</file>
+        <file>YMStarsAssessView.qml</file>
+        <file>YMClockControl.qml</file>
+    </qresource>
+</RCC>

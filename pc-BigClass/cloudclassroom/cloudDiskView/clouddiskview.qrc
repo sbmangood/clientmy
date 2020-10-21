@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>YMLoadingStatuesView.qml</file>
+        <file>YMCloudDiskMainView.qml</file>
+        <file>YMRandomSelectionView.qml</file>
+        <file>YMResponderView.qml</file>
+        <file>Configuration.js</file>
+        <file>cloudDiskImages/btn_pop_close.png</file>
+        <file>cloudDiskImages/btn_pop_refresh.png</file>
+        <file>cloudDiskImages/btn_unselected.png</file>
+        <file>cloudDiskImages/btn_selected.png</file>
+        <file>cloudDiskImages/bg_pop_netdisc.png</file>
+        <file>cloudDiskImages/ico_pop_av.png</file>
+        <file>cloudDiskImages/ico_pop_h5.png</file>
+        <file>cloudDiskImages/ico_pop_pic.png</file>
+        <file>cloudDiskImages/deldialog.png</file>
+        <file>YMDelDialogView.qml</file>
+        <file>cloudDiskImages/btn_pop_close_focused.png</file>
+        <file>cloudDiskImages/btn_pop_close_pressed.png</file>
+        <file>cloudDiskImages/btn_pop_close_released.png</file>
+    </qresource>
+</RCC>

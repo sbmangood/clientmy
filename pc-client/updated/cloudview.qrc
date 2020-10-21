@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CloudModifyPageView.qml</file>
+        <file>ShowQuestionHandlerView.qml</file>
+        <file>SingleChoiceQuestionView.qml</file>
+        <file>MultipleChoiceQuestionsView.qml</file>
+        <file>JudgmentQuestionView.qml</file>
+        <file>AddAnswerView.qml</file>
+        <file>CloudCompositeTopicView.qml</file>
+        <file>CloudMultipleChoice.qml</file>
+        <file>CloudFillBlankView.qml</file>
+        <file>KnowledgesView.qml</file>
+        <file>CloudPictureScrollView.qml</file>
+        <file>CloudExercisePageView.qml</file>
+        <file>CloudRoomMeun.qml</file>
+        <file>CloudModifyHomeworkView.qml</file>
+        <file>YMComboBoxControl2.qml</file>
+        <file>CloudTipView.qml</file>
+        <file>CloudDeleteImageTip.qml</file>
+    </qresource>
+</RCC>

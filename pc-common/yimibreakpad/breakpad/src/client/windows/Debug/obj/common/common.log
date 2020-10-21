@@ -1,0 +1,4 @@
+﻿  guid_string.cc
+  http_upload.cc
+  string_utils.cc
+  common.vcxproj -> D:\tools\breakpad-master\src\client\windows\Debug\lib\common.lib

@@ -1,0 +1,10 @@
+﻿  string_conversion.cc
+  basic_code_modules.cc
+  convert_old_arm64_context.cc
+  dump_context.cc
+  dump_object.cc
+  logging.cc
+  minidump.cc
+  pathname_stripper.cc
+  proc_maps_linux.cc
+  processor_bits.vcxproj -> D:\TestWork\breakpad-master\src\client\windows\Debug\lib\processor_bits.lib

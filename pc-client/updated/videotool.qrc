@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>VideoToolBackground.qml</file>
+        <file>MediaPlayer.qml</file>
+        <file>AudioPlayer.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AudioVideoView.qml</file>
+		<file>AudioVideoViewStu.qml</file>
+        <file>Configuration.js</file>
+        <file>avimages/xb_hmc_jiangli.png</file>
+        <file>avimages/xb_hmc_on.png</file>
+        <file>avimages/xb_hmc_shouquan.png</file>
+        <file>avimages/xb_icon_lbqg.png</file>
+        <file>avimages/xb_icon_shuxin_changtai.png</file>
+        <file>avimages/xbk_hmc_shangtai.png</file>
+        <file>avimages/xb_xianshi1.png</file>
+        <file>avimages/xb_xianshi2.png</file>
+        <file>avimages/6pxbackgrundImg.png</file>
+        <file>avimages/xb_icon_laoshi.png</file>
+        <file>avimages/xb_yuyin1-1.png</file>
+        <file>avimages/xb_hmc_forbid.png</file>
+        <file>avimages/xb_hmc_off.png</file>
+        <file>avimages/xb_hmc_weishouquan.png</file>
+        <file>avimages/xb_icon_lbqk.png</file>
+        <file>avimages/xbk_hmc_xiatai.png</file>
+    </qresource>
+</RCC>

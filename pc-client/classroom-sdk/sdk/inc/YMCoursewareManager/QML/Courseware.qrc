@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ImageView.qml</file>
+        <file>YMAudioPlayer.qml</file>
+        <file>YMVideoPlayer.qml</file>
+        <file>H5EngineView.qml</file>
+        <file>CourseWareControlView.qml</file>
+        <file>Configuuration.js</file>
+    </qresource>
+</RCC>
